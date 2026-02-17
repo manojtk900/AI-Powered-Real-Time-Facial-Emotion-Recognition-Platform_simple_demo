@@ -76,3 +76,67 @@ Final Validation Accuracy: ~56%
 ###
 
 HTML / CSS
+
+
+
+
+
+⚙️ Installation
+1️⃣ Clone Repository
+git clone https://github.com/your-username/FaceEmotionDetection.git
+cd FaceEmotionDetection
+
+2️⃣ Create Virtual Environment (Python 3.10 recommended)
+py -3.10 -m venv venv
+venv\Scripts\activate
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+
+Or manually:
+
+pip install tensorflow opencv-python flask numpy
+
+▶️ Run Web App
+python app.py
+
+
+Open browser:
+
+http://127.0.0.1:5000/
+
+
+Press Q to stop if using OpenCV version.
+
+🎓 How It Works
+
+Webcam captures frame
+
+Face detected using Haar Cascade
+
+Face resized to 48x48 grayscale
+
+CNN predicts emotion
+
+Emotion + confidence displayed in real-time
+
+💼 Resume Description
+
+Developed a real-time facial emotion detection web application using CNN trained on FER-2013 dataset, integrated with Flask backend for live browser-based emotion classification with confidence scoring.
+
+🔮 Future Improvements
+
+Circular UI webcam frame
+
+Emotion analytics dashboard
+
+Model optimization (70%+ accuracy)
+
+Cloud deployment (Render / AWS)
+
+REST API integration
+
+📜 License
+
+This project is for educational and research purposes.
