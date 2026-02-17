@@ -44,4 +44,35 @@ OpenCV
 
 Flask
 
+
+
+##
+📂 Project Structure
+FaceEmotionDetection/
+│
+├── train/                     # Training dataset
+├── test/                      # Validation dataset
+├── model.h5                   # Trained CNN model
+├── train_model.py             # Model training script
+├── app.py                     # Flask backend
+├── templates/
+│     └── index.html           # Frontend UI
+├── real_time_detection.py     # OpenCV version
+└── requirements.txt
+
+🧠 Model Architecture
+
+3 Convolutional Layers
+
+MaxPooling Layers
+
+Dropout Regularization
+
+Dense Fully Connected Layer
+
+Softmax Output (7 classes)
+
+Final Validation Accuracy: ~56%
+###
+
 HTML / CSS
