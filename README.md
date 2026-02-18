@@ -1,3 +1,4 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎭 Real-Time Facial Emotion Detection Web App
 
 A real-time facial emotion detection system built using TensorFlow, OpenCV, and Flask, trained on the FER-2013 dataset and deployed as a live web application.
@@ -51,15 +52,21 @@ Flask
 FaceEmotionDetection/
 │
 ├── train/                     # Training dataset
+
 ├── test/                      # Validation dataset
+
 ├── model.h5                   # Trained CNN model
+
 ├── train_model.py             # Model training script
+
 ├── app.py                     # Flask backend
 ├── templates/
 │     └── index.html           # Frontend UI
+
 ├── real_time_detection.py     # OpenCV version
 └── requirements.txt
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧠 Model Architecture
 
 3 Convolutional Layers
@@ -140,3 +147,4 @@ REST API integration
 📜 License
 
 This project is for educational and research purposes.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
